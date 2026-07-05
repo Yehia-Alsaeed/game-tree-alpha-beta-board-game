@@ -4,6 +4,14 @@ A Windows C++ board game that demonstrates game-tree search, recursive backtrack
 
 The project combines a Win32/GDI desktop interface with an AI move-selection engine. The human player controls the red tokens, while the AI controls the green tokens and evaluates future states before choosing its next move.
 
+## Screenshots
+
+![Full game interface](assets/screenshots/game-overview.png)
+
+| Valid move highlight | AI jump capture |
+| --- | --- |
+| ![Selected red token with valid move highlight](assets/screenshots/valid-move-highlight.png) | ![Board state after an AI jump capture](assets/screenshots/ai-jump-capture.png) |
+
 ## Features
 
 - Playable 5x5 board-game implementation using native Windows UI APIs.
